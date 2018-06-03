@@ -1,0 +1,263 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+#cssmenu {
+  background: #2c3e50;
+  width: auto;
+	float:right;
+        border: 3px solid #6E7FF3;
+    border-bottom: none;
+    
+    background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+
+}
+
+#cssmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+	position: relative;
+    margin-right: 40px;
+}
+#cssmenu ul:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#cssmenu ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+#cssmenu.align-right ul li {
+  float: right;
+}
+#cssmenu.align-center ul {
+  text-align: center;
+}
+#cssmenu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+	position: relative;
+}
+#cssmenu ul li a:hover {
+  color: #1abc9c;
+}
+#cssmenu ul li a:hover:before {
+  width: 100%;
+	
+}
+#cssmenu ul li a:after {
+  content: "IT";
+  display: block;
+  position: absolute;
+  right: 3px;
+  top: 15px;
+  height: 6px;
+  width: 3px;
+	color: #00dbde;
+ 
+  opacity: .5;
+}
+#cssmenu ul li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: 	#9400D3;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+#cssmenu ul li.last > a:after,
+#cssmenu ul li:last-child > a:after {
+  display: block;
+}
+
+#cssmenu ul  {border-radius: 15px 50px 30px;}
+
+
+  #cssmenu ul li a {
+    width: 100%;
+
+    box-sizing: border-box;
+      padding-left: 5px;
+    
+  }
+  
+  
+  }
+  #cssmenu ul li a:after {
+    display: block;
+  }
+  #cssmenu ul li a:before {
+    display: block;
+  }
+#cssmenu ul li:hover {}
+
+#cssmenu ul ul{
+	display: none;
+	width: 150px;
+height: inherit;
+margin:0px;
+padding: 0px;
+position: absolute;
+list-style:none;
+content: none;
+text-align: center;	
+    
+	
+	background-color: inherit;
+	opacity: 3;
+    
+}
+
+#cssmenu ul ul {
+		-webkit-animation: rotation 1s ;
+}
+#cssmenu ul ul li {
+		-webkit-animation: rotation 1s ;
+}
+
+@keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+#cssmenu ul ul li { 
+    background-color: #2c3e50; 
+    padding: 20px; 
+    border-radius: 25px;
+    border:2px solid #6E7FF3;
+    margin-top: 10px;
+    width:120px;
+     background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+}
+
+
+#cssmenu ul li:hover ul  { display: block; cursor: pointer;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 8888; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10vh auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%; 
+}
+
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button.button {
+ 	background:none;
+  border-top:none;
+  border-right:none;
+  border-left:none;
+  border-bottom:none;
+  padding:0 0 0 0;
+  font-size:16px;
+}
+
+
+
+
+
+.contact-form h2 { color:#49a3b9;}
+#logo { width:45px;height: 30px; overflow: hidden;
+}
+.contact-form #ex:before { position: relative;}
+
+.chat{ float: right;position: fixed;
+     bottom: 0;
+     right: 0;
+   border: 3px solid #6E7FF3;
+        box-shadow: -5px -2px 23px 2px rgba(143,120,62,0.83);
+    border-bottom: none;
+}
+
+#monitor {background-image: url("images/monitor.png");
+background-repeat: no-repeat;background-size: contain;
+position: absolute; width: 900px; height: 700px; text-align: center; right:600px;top:190px;}
+#video {
+position: absolute; width: 843px; height: 470px; text-align: center; right:32px;top:34px;box-shadow: 0px 0px 36px 8px rgba(0,0,0,0.94);}
+
+
+#clock {
+    
+   font-size: 90px;
+   font-family: Baskerville, Georgia;
+    position:absolute;
+    padding-top: 2px;
+    left:30%;
+    background: -webkit-linear-gradient(#2851A2, blanchedalmond,#2851A2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contact-form h2{ font-size: 50px;}
+.contact-form{background: linear-gradient(to right, #d3959b, #bfe6ba);}
+.modal-content{height: 750px;background: linear-gradient(to right, #d3959b, #bfe6ba);border-radius: 40px;}
+
+.text p{float:right; padding: 40px; width:750px;margin-right:50px;
+margin-top:10px; font-family: 'Roboto Condensed', sans-serif;font-size: 20px; background-color: darkorange; border-radius: 30px;}
+.text img{float:left; padding: 0;margin:0; border: 2px solid darkorange; border-radius: 40px;}
+
+ #map-canvas {
+     align-content: center;
+        		height: 650px;
+     width:1000px;
+        		margin: 0;
+        		padding: 0;
+     left: 300px;
+      		}
